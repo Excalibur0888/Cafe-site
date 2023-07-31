@@ -537,26 +537,26 @@ progress {
 	box-shadow: 1px 1px 10px rgba(0,0,0,.4705882353)
 }
 
-.promo {
+.greeting {
 	position: relative;
 	height: 900px;
 	padding-top: 55px;
 	background: url(../img/Promo/Bg.jpg) no-repeat center/cover
 }
 
-.promo__nav {
+.greeting__nav {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	margin-bottom: 155px
 }
 
-.promo__nav-items {
+.greeting__nav-items {
 	display: flex;
 	justify-content: center
 }
 
-.promo__nav-item {
+.greeting__nav-item {
 	color: #fff;
 	font-weight: 500;
 	font-size: 16px;
@@ -564,16 +564,16 @@ progress {
 	margin-right: 45px
 }
 
-.promo__nav-item:nth-last-child(1) {
+.greeting__nav-item:nth-last-child(1) {
 	margin-right: 0
 }
 
-.promo__nav-item:hover {
+.greeting__nav-item:hover {
 	color: #fff;
 	text-decoration: underline
 }
 
-.promo__nav-phone {
+.greeting__nav-phone {
 	color: #fff;
 	font-weight: 400;
 	font-size: 16px;
@@ -581,15 +581,15 @@ progress {
 	cursor: pointer
 }
 
-.promo__nav-phone:hover {
+.greeting__nav-phone:hover {
 	color: #fff
 }
 
-.promo__nav-phone-icon {
+.greeting__nav-phone-icon {
 	margin-right: 10px
 }
 
-.promo__schedule {
+.greeting__schedule {
 	color: #fff;
 	font-weight: 500;
 	font-size: 24px;
@@ -597,7 +597,7 @@ progress {
 	margin-bottom: 24px
 }
 
-.promo__title {
+.greeting__title {
 	color: #fff;
 	font-weight: 700;
 	font-size: 64px;
@@ -605,13 +605,13 @@ progress {
 	margin-bottom: 40px
 }
 
-.promo__buttons {
+.greeting__buttons {
 	display: flex;
 	justify-content: space-between;
 	align-items: center
 }
 
-.promo__button {
+.greeting__button {
 	background-color: #3a4574;
 	width: 270px;
 	height: 100px;
@@ -622,22 +622,22 @@ progress {
 	transition: .3s all
 }
 
-.promo__button:hover {
+.greeting__button:hover {
 	scale: 1.05;
 	box-shadow: 3px 3px 10px rgba(0,0,0,.4705882353)
 }
 
-.promo__link {
+.greeting__link {
 	margin-right: 25px;
 	transition: .3s all;
 	cursor: pointer
 }
 
-.promo__link:nth-last-child(1) {
+.greeting__link:nth-last-child(1) {
 	margin-right: 0
 }
 
-.promo__link:hover {
+.greeting__link:hover {
 	scale: 1.2
 }
 
@@ -1220,45 +1220,45 @@ progress {
 }
 
 @media(max-width: 1200px) {
-	.promo__schedule {
+	.greeting__schedule {
 			font-size:22px
 	}
 
-	.promo__title {
+	.greeting__title {
 			font-size: 52px
 	}
 
-	.promo__button {
+	.greeting__button {
 			width: 250px;
 			height: 85px
 	}
 }
 
 @media(max-width: 992px) {
-	.promo {
+	.greeting {
 			padding-top:35px
 	}
 
-	.promo__logo {
+	.greeting__logo {
 			width: 240px
 	}
 
-	.promo__schedule {
+	.greeting__schedule {
 			font-size: 20px
 	}
 
-	.promo__title {
+	.greeting__title {
 			font-size: 40px;
 			line-height: 70px
 	}
 
-	.promo__nav {
+	.greeting__nav {
 			flex-wrap: wrap;
 			justify-content: space-around;
 			margin-bottom: 110px
 	}
 
-	.promo__nav-items {
+	.greeting__nav-items {
 			order: 3;
 			width: 100%;
 			margin-top: 25px
@@ -1270,57 +1270,57 @@ progress {
 			display:block
 	}
 
-	.promo__nav-items {
+	.greeting__nav-items {
 			display: none
 	}
 
-	.promo__schedule {
+	.greeting__schedule {
 			margin-bottom: 15px
 	}
 
-	.promo__title {
+	.greeting__title {
 			font-size: 32px;
 			line-height: 60px;
 			margin-bottom: 65px
 	}
 
-	.promo__buttons {
+	.greeting__buttons {
 			flex-direction: column;
 			justify-content: center
 	}
 
-	.promo__button {
+	.greeting__button {
 			margin-bottom: 30px
 	}
 
-	.promo__button:hover {
+	.greeting__button:hover {
 			scale: 1;
 			box-shadow: none
 	}
 
-	.promo__link:hover {
+	.greeting__link:hover {
 			scale: 1
 	}
 }
 
 @media(max-width: 576px) {
-	.promo {
+	.greeting {
 			padding-top:50px
 	}
 
-	.promo__logo-wrapper {
+	.greeting__logo-wrapper {
 			margin-bottom: 10px
 	}
 
-	.promo__nav {
+	.greeting__nav {
 			margin-bottom: 140px
 	}
 
-	.promo__schedule {
+	.greeting__schedule {
 			font-size: 18px
 	}
 
-	.promo__title {
+	.greeting__title {
 			font-size: 28px;
 			line-height: 44px
 	}

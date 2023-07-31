@@ -31,10 +31,10 @@ menuItems.forEach((e) => closeElem(e, [menu], ['menu_active']));
 const form = document.querySelector('.form'),
 	  formClose = document.querySelector('.form__close'),
 	  formWrapper = document.querySelector('.form__wrapper'),
-	  promoButton = document.querySelector('.promo__button');
+	  greetingButton = document.querySelector('.greeting__button');
 
 
-openElem(promoButton, [form, formWrapper], ['form_active', 'form__wrapper_active']);
+openElem(greetingButton, [form, formWrapper], ['form_active', 'form__wrapper_active']);
 
 closeElem(formClose, [form, formWrapper], ['form_active', 'form__wrapper_active']);
 
