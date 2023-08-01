@@ -47,23 +47,29 @@ telInput.addEventListener('input', () => {
 });
 
 function postData(form) {
-	form.addEventListener('submit', (e) => {
-		e.preventDefault();
+  form.addEventListener('submit', (e) => {
+    e.preventDefault();
 
-		const request = new XMLHttpRequest(),
-			  formData = new FormData(form);
+    const formData = new FormData(form);
+    for (const [key, value] of formData.entries()) {
+      console.log(key, value);
+    }
 
-		request.open('POST', 'server.php');
-		request.send(formData);
-		request.addEventListener('load', () => {
-			console.log(request.response);
-			if (request.status === 200) {
-				console.log(request.response);
-				form.reset();
-			}
-		});
-
-	})
+    fetch('server.php', {
+      method: 'POST',
+      body: formData
+    })
+      .then(response => response.text())
+      .then(data => {
+        console.log(data);
+        if (data === 'success') {
+          form.reset();
+        }
+      })
+      .catch(error => {
+        console.error('Error:', error);
+      });
+  });
 }
 
 postData(form);
