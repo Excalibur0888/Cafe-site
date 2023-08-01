@@ -641,9 +641,12 @@ progress {
 	color: #000
 }
 
-.menu__phone {
+.contacts__container {
 	position: absolute;
-	bottom: 10%;
+	bottom: 30px;
+}
+
+.menu__phone {
 	color: #000;
 	font-weight: 400;
 	font-size: 16px;
@@ -656,13 +659,11 @@ progress {
 }
 
 .menu__contacts {
-	position: absolute;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
-	width: 60%;
-	bottom: 1%;
+	margin-top: 10px;
 }
 
 #insta {
