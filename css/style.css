@@ -622,6 +622,7 @@ progress {
 
 .menu__block nav {
 	display: flex;
+	align-self: center;
 	flex-direction: column;
 	justify-content: start;
 	align-items: flex-start;
