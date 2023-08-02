@@ -610,6 +610,8 @@ progress {
 
 .menu__block {
 	position: absolute;
+	display: flex;
+	align-items: flex-start;
 	top: 0;
 	left: 0;
 	z-index: 2;
@@ -643,7 +645,8 @@ progress {
 
 .contacts__container {
 	position: absolute;
-	bottom: 40px;
+	align-self: flex-end;
+	bottom: 5px;
 }
 
 .menu__phone {
